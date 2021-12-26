@@ -5,6 +5,9 @@ edition = "2021"
 license = "WTFPL"
 publish = false
 
+[features]
+no-entrypoint = []
+
 [dependencies]
 solana-program = "=1.9.1"
 thiserror = "1.0.24"
